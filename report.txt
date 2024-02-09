@@ -1,0 +1,56 @@
+# Data Analysis Summary Report
+
+## Executive Summary
+
+# This report provides insights derived from a comprehensive analysis of the dataset. The analyses covered basic data exploration, data cleaning, visualizations, and correlation analysis. The primary focus was on understanding salary distribution, departmental proportions, and exploring relationships between salary and other numerical variables.
+
+# ## Key Findings
+
+# ### 1. Descriptive Statistics
+
+# - The dataset comprises [148654] rows and [13] columns.
+# - The mean salary across the organization is [66325.4488404877], with a minimum of [-166.01] and a maximum of [319275.01].
+# - The standard deviation of salaries is [ 42764.63549525887 ].
+# - Salary Range is  [319441.02].
+# - Mode Salary is [0.0].
+# -The Data Types :
+Id                    int64
+EmployeeName         object
+JobTitle             object
+BasePay             float64
+OvertimePay         float64
+OtherPay            float64
+Benefits            float64
+TotalPay            float64
+TotalPayBenefits    float64
+Year                  int64
+Notes               float64
+Agency               object
+Status              float64
+dtype: object 
+### 2. Data Cleaning
+
+# - [I can clean up the data by filling in the missing values ​​with default information such as the median]
+# - [explain why you use it?This helps maintain data balance and reduces the potential impact of missing values ​​on the final analysis]
+
+# ### 3. Salary Distribution
+
+# - The histogram revealed [insights about the salary distribution, e.g., skewness, multimodality].
+# - [Any other relevant observations from the salary distribution analysis.]
+
+# ### 4. Proportion of Employees in Departments
+
+# - The pie chart illustrated the proportion of employees in different departments.
+# - [Any specific insights into departmental distribution.] 
+
+
+
+
+
+
+
+
+
+
+
+
