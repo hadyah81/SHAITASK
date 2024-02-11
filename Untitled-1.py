@@ -67,8 +67,7 @@ df['OtherPay'].fillna(otherpay_median, inplace=True)
 # and use pie charts to represent the proportion of employees in   
 # different departments.
 
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 # Histogram for Salary Distribution
 plt.figure(figsize=(10, 6))
